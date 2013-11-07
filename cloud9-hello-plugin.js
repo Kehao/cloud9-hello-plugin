@@ -12,7 +12,7 @@ module.exports = ext.register("ext/helloplugin/helloplugin", {
     alone   : true,
 
     hook : function() {
-        //console.log(helloDep.getHello());
+        console.log(helloDep.getHello());
         console.log("======> hooking")
     },
 
